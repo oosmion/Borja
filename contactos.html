@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+</head>
+<body>
+    <header>
+        <h1>CONTACTOS</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Pagina principal</a>
+        <a href="contactos.html">Formulario</a>
+    </nav>
+
+    <main>
+        <hr>
+        <form action="">
+            <label for="lbl_nombre">Nombre Completo</label><br>
+            <input type="text" name="nombre" id="lbl_nombre"
+            maxlength="90" placeholder="Digite el nombre"><br>
+
+            <label for="lbl_celu">Movil</label><br>
+            <input type="tel" name="celular" id="lbl_celu"
+            placeholder="10 digitos" pattern="[0-9]{10}" autocomplete="off"><br>
+
+            <label for="lbl_correo">Email</label><br>
+            <input type="email" name="correo" id="lbl_correo"
+            placeholder="contoso@mail.com"><br>
+            <hr>
+            
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="Reiniciar">
+        </form>
+    </main>
+</body>
+</html>
